@@ -1,0 +1,9 @@
+# Serveur MCP (version 2 : la classe s'appelle MCPServer, l'ancienne FastMCP a été supprimée)
+mcp>=2.3,<3
+# Client OpenAI : doit connaître l'API Responses, les conteneurs et max_tool_calls
+openai>=1.99
+requests>=2.31
+uvicorn>=0.30
+anyio>=4
+# Tests uniquement
+pytest>=8
